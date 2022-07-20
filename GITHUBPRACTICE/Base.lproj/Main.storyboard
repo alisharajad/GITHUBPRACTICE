@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -43,10 +44,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smm-mn-Hq6">
+                            <button opaque="NO" contentMode="center" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smm-mn-Hq6">
                                 <rect key="frame" x="10" y="487" width="395" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.62426099280000003" green="0.78039215689999997" blue="0.66572401309999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="395" id="66P-uI-Qvm"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="L E A R N  M O R E  A B O U T  O T H E R  P R O G R A M S" cornerStyle="large">
                                     <backgroundConfiguration key="background">
@@ -55,6 +58,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="infoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qjN-ql-fNH"/>
+                                    <segue destination="KZZ-AB-V4Z" kind="show" id="BV5-F9-VHG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pa-aR-j0l">
@@ -68,6 +72,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="tutorialBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsI-w5-Ss2"/>
+                                    <segue destination="ICo-c0-MeG" kind="show" id="GXM-ZC-uok"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmC-ql-bZk">
@@ -81,6 +86,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="communicateBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZvW-Fm-6CC"/>
+                                    <segue destination="cqL-gy-yS5" kind="show" id="eiK-8z-YE9"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Women in STEM" translatesAutoresizingMaskIntoConstraints="NO" id="mbc-X5-aWo">
@@ -93,19 +99,95 @@
                         <color key="tintColor" red="0.90601582899999999" green="1" blue="0.84372723620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="Title" destination="DgS-tp-eyj" id="RXW-qR-M4Q"/>
                         <outlet property="imgHair" destination="mbc-X5-aWo" id="qcJ-xA-o04"/>
                         <outlet property="lillies" destination="DgS-tp-eyj" id="VVh-IP-N3U"/>
                         <outlet property="smallInfo" destination="3bV-pP-S4b" id="5fd-VH-VND"/>
-                        <outlet property="title" destination="DgS-tp-eyj" id="TKI-RU-aOQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>
+        <!--Programs-->
+        <scene sceneID="ijx-Tj-tAT">
+            <objects>
+                <viewController id="KZZ-AB-V4Z" customClass="Programs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3VV-rm-QOE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdC-hG-rZh">
+                                <rect key="frame" x="175" y="71" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oca-hl-xGd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eGH-ir-s8a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8nr-li-OJm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="784" y="-68"/>
+        </scene>
+        <!--Tutorials-->
+        <scene sceneID="yXE-Ol-T6p">
+            <objects>
+                <viewController id="ICo-c0-MeG" customClass="Tutorials" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hJ3-VA-MCJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="086-mq-pdf">
+                                <rect key="frame" x="179" y="71" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RTh-06-oej"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GTm-sG-AOV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGb-cy-vjV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="784" y="634"/>
+        </scene>
+        <!--Communications-->
+        <scene sceneID="MPo-kI-oYI">
+            <objects>
+                <viewController id="cqL-gy-yS5" customClass="Communications" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ybx-T7-xiu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hK0-mp-km4">
+                                <rect key="frame" x="186" y="54" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0K6-GR-7rr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Uzc-W4-xpJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rgx-ra-4mA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="293"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Women in STEM" width="800" height="450"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
