@@ -30,9 +30,22 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func didTapBtn() {
+    @IBAction func KWKBtn() {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "KWKViewController")    as! KWKViewController
         navigationController?.pushViewController(vc, animated: true)
     }
+    
+    
+    
+    @IBAction func GWCBtn() {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "GWCViewController")    as! GWCViewController
+      navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func BGCBtn() {
+      let vc = self.storyboard?.instantiateViewController(withIdentifier: "BGCViewController")    as! BGCViewController
+      navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 

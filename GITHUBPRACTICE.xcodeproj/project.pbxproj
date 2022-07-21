@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3817CB4228899CC300D87214 /* KWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817CB4128899CC300D87214 /* KWKViewController.swift */; };
+		3817CB442889CA4800D87214 /* GWCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817CB432889CA4800D87214 /* GWCViewController.swift */; };
+		3817CB462889CAAA00D87214 /* BGCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817CB452889CAAA00D87214 /* BGCViewController.swift */; };
 		38D45A162887090D00E22D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D45A152887090D00E22D05 /* AppDelegate.swift */; };
 		38D45A182887090D00E22D05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D45A172887090D00E22D05 /* SceneDelegate.swift */; };
 		38D45A1A2887090D00E22D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D45A192887090D00E22D05 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		3817CB4128899CC300D87214 /* KWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWKViewController.swift; sourceTree = "<group>"; };
+		3817CB432889CA4800D87214 /* GWCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWCViewController.swift; sourceTree = "<group>"; };
+		3817CB452889CAAA00D87214 /* BGCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGCViewController.swift; sourceTree = "<group>"; };
 		38D45A122887090D00E22D05 /* GITHUBPRACTICE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITHUBPRACTICE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D45A152887090D00E22D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D45A172887090D00E22D05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				38D45A172887090D00E22D05 /* SceneDelegate.swift */,
 				38D45A192887090D00E22D05 /* ViewController.swift */,
 				38D45A1B2887090D00E22D05 /* Main.storyboard */,
+				3817CB452889CAAA00D87214 /* BGCViewController.swift */,
+				3817CB432889CA4800D87214 /* GWCViewController.swift */,
 				38D45A212887091000E22D05 /* Assets.xcassets */,
 				38D45A232887091000E22D05 /* LaunchScreen.storyboard */,
 				38D45A262887091000E22D05 /* Info.plist */,
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3817CB442889CA4800D87214 /* GWCViewController.swift in Sources */,
 				38D45A1A2887090D00E22D05 /* ViewController.swift in Sources */,
+				3817CB462889CAAA00D87214 /* BGCViewController.swift in Sources */,
 				38D45A202887090D00E22D05 /* GITHUBPRACTICE.xcdatamodeld in Sources */,
 				3817CB4228899CC300D87214 /* KWKViewController.swift in Sources */,
 				38D45A162887090D00E22D05 /* AppDelegate.swift in Sources */,
