@@ -23,15 +23,18 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func infoBtn(_ sender: Any) {
+
+    @IBAction func nextBtn(_ sender: Any) {
     }
     
     
-    @IBAction func tutorialBtn(_ sender: Any) {
-    }
     
     
-    @IBAction func communicateBtn(_ sender: Any) {
+    @IBAction func didTapBtn() {
+        let vc = UIViewController()
+        vc.view.backgroundColor = .red
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
