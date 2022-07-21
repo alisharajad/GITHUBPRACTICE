@@ -31,9 +31,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func didTapBtn() {
-        let vc = UIViewController()
-        vc.view.backgroundColor = .red
-        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "KWKViewController")    as! KWKViewController
         navigationController?.pushViewController(vc, animated: true)
     }
 }
