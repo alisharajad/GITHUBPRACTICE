@@ -140,7 +140,7 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kode with Klossy" translatesAutoresizingMaskIntoConstraints="NO" id="ym1-Fa-6eN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KodeWithKlossy" translatesAutoresizingMaskIntoConstraints="NO" id="ym1-Fa-6eN">
                                 <rect key="frame" x="5" y="107" width="266" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -157,7 +157,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnS-5D-39h">
-                                <rect key="frame" x="0.0" y="94" width="150" height="65"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -382,7 +382,7 @@
         <image name="GWCLogo" width="500" height="500"/>
         <image name="Girls Who Code" width="900" height="564"/>
         <image name="KWKLogo" width="225" height="225"/>
-        <image name="Kode with Klossy" width="300" height="168"/>
+        <image name="KodeWithKlossy" width="300" height="168"/>
         <image name="Women in STEM" width="800" height="450"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
