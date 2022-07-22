@@ -190,21 +190,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4f-t5-lh9">
-                                <rect key="frame" x="9" y="484" width="251" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Learn More About Girls Who Code">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="strokeColor" red="0.79646292149999998" green="0.69151664189999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="GWCBtn" destination="64t-dm-vz2" eventType="touchUpInside" id="ylH-1P-NtL"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black Girls Code" translatesAutoresizingMaskIntoConstraints="NO" id="7z6-qu-kGT">
                                 <rect key="frame" x="13" y="571" width="255" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -248,6 +233,21 @@
                                 <rect key="frame" x="221" y="610" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ami-X2-juW">
+                                <rect key="frame" x="11" y="482" width="240" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn More About Girls Who Code">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="strokeColor" red="0.79646292149999998" green="0.69151664189999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="GWCViewController" destination="64t-dm-vz2" eventType="touchUpInside" id="Pzv-WU-JOG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lly-ml-mZI"/>
                         <color key="backgroundColor" red="0.66512697529627041" green="0.49551358227821912" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -258,34 +258,41 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="2322.3214285714284"/>
         </scene>
-        <!--KWKViewController-->
+        <!--Kode With Klossy Program-->
         <scene sceneID="PHR-kJ-Ef8">
             <objects>
-                <viewController storyboardIdentifier="KWKViewController" title="KWKViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0jt-10-3BD" customClass="KWKViewController" customModule="GITHUBPRACTICE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KWKViewController" title="Kode With Klossy Program" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0jt-10-3BD" customClass="KWKViewController" customModule="GITHUBPRACTICE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xy8-PO-5hc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="K O D E  W I T H K L O S S Y" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6i-SF-z0r">
-                                <rect key="frame" x="0.0" y="18" width="414" height="202"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOz-ky-fww">
-                                <rect key="frame" x="20" y="202" width="374" height="433"/>
+                                <rect key="frame" x="20" y="142" width="374" height="433"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">Kode With Klossy creates multiple learning experiences and opportunities for young women and non-binary individuals. 
 Our direct programs are created and designed by the Kode with Klossy team to provide best-in-class STEAM experiences at the intersection of technology and creativity.
 ​
 Kode with Klossy’s flagship program provides the opportunity for young women and non-binary individuals across the country, ages 13-18, to attend free two week bootcamps that introduce them to key computer science concepts and skills. Scholars collaborate with each other and with inspiring instructors to explore the limitless potential of code and computer science.</mutableString>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Powerpuff" translatesAutoresizingMaskIntoConstraints="NO" id="ObF-9P-dU5">
-                                <rect key="frame" x="20" y="643" width="374" height="185"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="K O D E  W I T H  K L O S S Y" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6i-SF-z0r">
+                                <rect key="frame" x="0.0" y="11" width="414" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check them out at https://www.kodewithklossy.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zK5-VI-twd">
+                                <rect key="frame" x="0.0" y="525" width="414" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KK" translatesAutoresizingMaskIntoConstraints="NO" id="zZM-LS-Jce">
+                                <rect key="frame" x="-104" y="552" width="623" height="263"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -297,13 +304,43 @@ Kode with Klossy’s flagship program provides the opportunity for young women a
             </objects>
             <point key="canvasLocation" x="-707.24637681159425" y="2976.5625"/>
         </scene>
-        <!--GWCViewController-->
+        <!--Girls Who Code Program-->
         <scene sceneID="BB9-Eg-0dg">
             <objects>
-                <viewController storyboardIdentifier="GWCViewController" title="GWCViewController" id="epq-ex-JUe" customClass="GWCViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GWCViewController" title="Girls Who Code Program" id="epq-ex-JUe" customClass="GWCViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OLq-eI-sXj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="G I R L S  W H O  C O D E" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcu-2g-U5C">
+                                <rect key="frame" x="0.0" y="13" width="414" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgx-Fb-rmN">
+                                <rect key="frame" x="20" y="186" width="374" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Girls who Code’s programs help get you on the experience of computer science, learning different languages and making a project out of what you learned.They focus on work not only on gender diversity but also on young women who are underrepresented in computer science fields. They are on a mission to close the gender gap with their clubs and summer programs. 
+
+Their clubs allow for 3rd-5th and 6th-12th graders to explore coding in a fun &amp; friendly environment. They also offer college programs for the future women of tech looking to pursue computer programming as a career. Girls Who Code has over 8,500 programs worldwide, and they’re growing fast! GIirls Who Code are also partners with Doja Cast and Coachella. With the help of Girls Who Code, there are now 500,000 girls, women and nonbinary individuals coding worldwide.</mutableString>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check them out at https://girlswhocode.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfd-0l-hOg">
+                                <rect key="frame" x="35" y="601" width="344" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GWC" translatesAutoresizingMaskIntoConstraints="NO" id="q5j-RL-iKj">
+                                <rect key="frame" x="0.0" y="616" width="414" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uEr-8z-F4w"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <color key="tintColor" systemColor="systemBrownColor"/>
@@ -311,22 +348,52 @@ Kode with Klossy’s flagship program provides the opportunity for young women a
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eOz-yb-Fd3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13" y="2977"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="2976.5625"/>
         </scene>
-        <!--BGCViewController-->
+        <!--Black Girls Code Program-->
         <scene sceneID="L0Y-hi-Pj3">
             <objects>
-                <viewController storyboardIdentifier="BGCViewController" title="BGCViewController" id="euX-od-Rmc" customClass="BGCViewController" customModule="GITHUBPRACTICE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BGCViewController" title="Black Girls Code Program" id="euX-od-Rmc" customClass="BGCViewController" customModule="GITHUBPRACTICE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vi8-NW-cOA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B L A C K  G I R L S  C O D E" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17g-XS-maD">
+                                <rect key="frame" x="0.0" y="13" width="414" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7X-6y-WNg">
+                                <rect key="frame" x="20" y="172" width="374" height="427"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">They build pathways for young women of color to embrace the current tech marketplace as builders and creators by introducing them to skills in computer programming and technology.
+
+Radical action is needed if we are to close the opportunity gap for Black women and girls. They lead a global movement to establish equal representation in the tech sector. Black Girls CODE is devoted to showing the world that Black girls can code and do so much more. Together, they are creating stronger economies and more equitable societies—ultimately realizing the true potential of democracy through diversity and inclusion.</mutableString>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check them out at https://www.blackgirlscode.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df4-gT-vml">
+                                <rect key="frame" x="9" y="599" width="396" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BGC" translatesAutoresizingMaskIntoConstraints="NO" id="Tm3-Wo-PDR">
+                                <rect key="frame" x="9" y="630" width="385" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="iDz-Ag-WnE"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jvu-66-tb5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="2977"/>
+            <point key="canvasLocation" x="679.71014492753625" y="2976.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gAr-ip-mfi">
@@ -395,13 +462,15 @@ Kode with Klossy’s flagship program provides the opportunity for young women a
         </scene>
     </scenes>
     <resources>
+        <image name="BGC" width="376" height="134"/>
         <image name="BGCLogo" width="900" height="900"/>
         <image name="Black Girls Code" width="2116" height="1038"/>
+        <image name="GWC" width="354" height="142"/>
         <image name="GWCLogo" width="500" height="500"/>
         <image name="Girls Who Code" width="900" height="564"/>
+        <image name="KK" width="500" height="500"/>
         <image name="KWKLogo" width="225" height="225"/>
         <image name="KodeWithKlossy" width="300" height="168"/>
-        <image name="Powerpuff" width="640" height="430"/>
         <image name="Women in STEM" width="800" height="450"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
