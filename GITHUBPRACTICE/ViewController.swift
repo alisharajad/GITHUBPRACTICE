@@ -37,15 +37,16 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func GWCBtn() {
+    @IBAction func GWCViewController() {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "GWCViewController")    as! GWCViewController
-      navigationController?.pushViewController(vc, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
+    
     
     @IBAction func BGCBtn() {
-      let vc = self.storyboard?.instantiateViewController(withIdentifier: "BGCViewController")    as! BGCViewController
-      navigationController?.pushViewController(vc, animated: true)
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "BGCViewController")    as! BGCViewController
+        navigationController?.pushViewController(vc, animated: true)
     }
-    
+
 }
 
