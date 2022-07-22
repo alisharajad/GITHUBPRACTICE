@@ -269,10 +269,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOz-ky-fww">
                                 <rect key="frame" x="20" y="142" width="374" height="433"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Kode With Klossy creates multiple learning experiences and opportunities for young women and non-binary individuals. 
+                                <string key="text">Kode With Klossy creates multiple learning experiences and opportunities for young women and non-binary individuals. 
 Our direct programs are created and designed by the Kode with Klossy team to provide best-in-class STEAM experiences at the intersection of technology and creativity.
 ​
-Kode with Klossy’s flagship program provides the opportunity for young women and non-binary individuals across the country, ages 13-18, to attend free two week bootcamps that introduce them to key computer science concepts and skills. Scholars collaborate with each other and with inspiring instructors to explore the limitless potential of code and computer science.</mutableString>
+Kode with Klossy’s flagship program provides the opportunity for young women and non-binary individuals across the country, ages 13-18, to attend free two week bootcamps that introduce them to key computer science concepts and skills. Scholars collaborate with each other and with inspiring instructors to explore the limitless potential of code and computer science.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -322,9 +322,9 @@ Kode with Klossy’s flagship program provides the opportunity for young women a
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgx-Fb-rmN">
                                 <rect key="frame" x="20" y="186" width="374" height="407"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Girls who Code’s programs help get you on the experience of computer science, learning different languages and making a project out of what you learned.They focus on work not only on gender diversity but also on young women who are underrepresented in computer science fields. They are on a mission to close the gender gap with their clubs and summer programs. 
+                                <string key="text">Girls who Code’s programs help get you on the experience of computer science, learning different languages and making a project out of what you learned.They focus on work not only on gender diversity but also on young women who are underrepresented in computer science fields. They are on a mission to close the gender gap with their clubs and summer programs. 
 
-Their clubs allow for 3rd-5th and 6th-12th graders to explore coding in a fun &amp; friendly environment. They also offer college programs for the future women of tech looking to pursue computer programming as a career. Girls Who Code has over 8,500 programs worldwide, and they’re growing fast! GIirls Who Code are also partners with Doja Cast and Coachella. With the help of Girls Who Code, there are now 500,000 girls, women and nonbinary individuals coding worldwide.</mutableString>
+Their clubs allow for 3rd-5th and 6th-12th graders to explore coding in a fun &amp; friendly environment. They also offer college programs for the future women of tech looking to pursue computer programming as a career. Girls Who Code has over 8,500 programs worldwide, and they’re growing fast! GIirls Who Code are also partners with Doja Cast and Coachella. With the help of Girls Who Code, there are now 500,000 girls, women and nonbinary individuals coding worldwide.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -365,12 +365,12 @@ Their clubs allow for 3rd-5th and 6th-12th graders to explore coding in a fun &a
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7X-6y-WNg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7X-6y-WNg">
                                 <rect key="frame" x="20" y="172" width="374" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">They build pathways for young women of color to embrace the current tech marketplace as builders and creators by introducing them to skills in computer programming and technology.
+                                <string key="text">They build pathways for young women of color to embrace the current tech marketplace as builders and creators by introducing them to skills in computer programming and technology.
 
-Radical action is needed if we are to close the opportunity gap for Black women and girls. They lead a global movement to establish equal representation in the tech sector. Black Girls CODE is devoted to showing the world that Black girls can code and do so much more. Together, they are creating stronger economies and more equitable societies—ultimately realizing the true potential of democracy through diversity and inclusion.</mutableString>
+Radical action is needed if we are to close the opportunity gap for Black women and girls. They lead a global movement to establish equal representation in the tech sector. Black Girls CODE is devoted to showing the world that Black girls can code and do so much more. Together, they are creating stronger economies and more equitable societies—ultimately realizing the true potential of democracy through diversity and inclusion.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
