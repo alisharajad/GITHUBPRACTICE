@@ -17,6 +17,7 @@
 		38D45A202887090D00E22D05 /* GITHUBPRACTICE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38D45A1E2887090D00E22D05 /* GITHUBPRACTICE.xcdatamodeld */; };
 		38D45A222887091000E22D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D45A212887091000E22D05 /* Assets.xcassets */; };
 		38D45A252887091000E22D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D45A232887091000E22D05 /* LaunchScreen.storyboard */; };
+		CE730262288AA68D0094665B /* TutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE730261288AA68D0094665B /* TutorialsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		38D45A212887091000E22D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D45A242887091000E22D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D45A262887091000E22D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE730261288AA68D0094665B /* TutorialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				38D45A172887090D00E22D05 /* SceneDelegate.swift */,
 				38D45A192887090D00E22D05 /* ViewController.swift */,
 				38D45A1B2887090D00E22D05 /* Main.storyboard */,
+				CE730261288AA68D0094665B /* TutorialsViewController.swift */,
 				3817CB452889CAAA00D87214 /* BGCViewController.swift */,
 				3817CB432889CA4800D87214 /* GWCViewController.swift */,
 				38D45A212887091000E22D05 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				38D45A202887090D00E22D05 /* GITHUBPRACTICE.xcdatamodeld in Sources */,
 				3817CB4228899CC300D87214 /* KWKViewController.swift in Sources */,
 				38D45A162887090D00E22D05 /* AppDelegate.swift in Sources */,
+				CE730262288AA68D0094665B /* TutorialsViewController.swift in Sources */,
 				38D45A182887090D00E22D05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
